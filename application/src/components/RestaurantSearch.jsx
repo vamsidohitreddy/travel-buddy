@@ -23,7 +23,7 @@ const RestaurantSearch = () => {
       const options = {
         method: 'GET',
         headers: {
-          'x-rapidapi-key': '9ae28392cemshc21565e1d3b8772p13d1cbjsn0701db882e5c',//import.meta.env.VITE_RAPIDAPI_KEY,
+          'x-rapidapi-key': import.meta.env.VITE_RAPIDAPI_KEY,
           'x-rapidapi-host': 'travel-advisor.p.rapidapi.com',
         },
       };
