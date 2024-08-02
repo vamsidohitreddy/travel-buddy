@@ -48,6 +48,7 @@ const HotelSearch = () => {
 
   return (
     <div className="p-5">
+    <h2 className="text-2xl font-bold mb-4">Hotel Search</h2>
       <Autocomplete
         options={cities}
         getOptionLabel={(option) => option.name}

@@ -28,15 +28,15 @@ const Translator = () => {
         synth.speak(utterance);
     };
 
-    const handleExchange = () => {
-        let tempValue = fromText;
-        setFromText(toText);
-        setToText(tempValue);
+    // const handleExchange = () => {
+    //     let tempValue = fromText;
+    //     setFromText(toText);
+    //     setToText(tempValue);
 
-        let tempLang = fromLanguage;
-        setFromLanguage(toLanguage);
-        setToLanguage(tempLang);
-    };
+    //     let tempLang = fromLanguage;
+    //     setFromLanguage(toLanguage);
+    //     setToLanguage(tempLang);
+    // };
 
     const handleTranslate = () => {
         setLoading(true);
@@ -73,6 +73,7 @@ const Translator = () => {
     return (
         <>
             <div className="max-w-1280 mx-auto p-8 text-center">
+            <h2 className="text-2xl font-bold mb-4">Translator</h2>
                 <div className="wrapper">
                     <div className="text-input">
                         <textarea 
@@ -121,14 +122,14 @@ const Translator = () => {
                                 ))}
                             </select>
                         </li>
-                        <li className="exchange">
+                        {/* <li className="exchange">
                             <button 
                                 className="fa-solid fa-arrow-right-arrow-left bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600"
                                 onClick={handleExchange}
                             >
                                 Exchange
                             </button>
-                        </li>
+                        </li> */}
                         <li className="row to flex items-center">
                             <select 
                                 value={toLanguage} 
