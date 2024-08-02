@@ -29,7 +29,7 @@ const Home = () => (
   <div className="flex justify-center items-center">
     <div className="text-center mt-5">
       <h1 className="text-3xl font-bold mb-4 pt-5">Welcome to Travel Buddy...</h1>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 pt-20">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 pt-14">
         {/* Card for Hotels */}
         <div className="border border-black rounded-lg shadow-md p-4">
           <h2 className="text-2xl font-bold mb-4">Hotels</h2>
@@ -37,7 +37,7 @@ const Home = () => (
             Discover the best hotels with great amenities and comfort.
           </p>
           <Link to="/hotels">
-            <button className="bg-blue-500 text-white text-lg px-4 py-2 rounded-md hover:bg-blue-600">
+            <button class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
               View Hotels
             </button>
           </Link>
@@ -50,7 +50,7 @@ const Home = () => (
             Explore the best dining options and cuisines around you.
           </p>
           <Link to="/restaurants">
-            <button className="bg-green-500 text-white text-lg px-4 py-2 rounded-md hover:bg-green-600">
+            <button class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
               View Restaurants
             </button>
           </Link>
@@ -63,7 +63,7 @@ const Home = () => (
             Discover iconic landmarks and must-see attractions.
           </p>
           <Link to="/famous-places">
-            <button className="bg-blue-500 text-white text-lg px-4 py-2 rounded-md hover:bg-blue-600">
+            <button class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
               View Famous Places
             </button>
           </Link>
@@ -76,7 +76,7 @@ const Home = () => (
             Translate text between different languages easily.
           </p>
           <Link to="/translator">
-            <button className="bg-green-500 text-white text-lg px-4 py-2 rounded-md hover:bg-green-600">
+            <button class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
               Use Translator
             </button>
           </Link>
